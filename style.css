@@ -127,6 +127,7 @@
 }
 
 .task-item>.task.input {
+  display: none;
   width: 226px;
 }
 
@@ -147,10 +148,6 @@
 }
 
 /* Edit Task */
-.task-item .input {
-  display: none;
-}
-
 .task-item.edit-mode .input {
   display: inline-block;
   width: 224px;
