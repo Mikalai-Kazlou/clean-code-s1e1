@@ -38,8 +38,9 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.new-task {
   display: flex;
+  margin: 20px 0 0;
 }
 
 .task-list {
@@ -99,14 +100,6 @@
   color: #333;
 }
 
-.task-row-wrapper {
-  margin: 20px 0 0;
-}
-
-.input#new-task {
-  display: block;
-}
-
 /* Task list */
 .task-item {
   overflow: hidden;
@@ -148,7 +141,7 @@
 }
 
 /* Completed */
-.task-list#completed-tasks .label {
+.task-list.completed .label {
   text-decoration: line-through;
   color: #888;
 }
