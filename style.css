@@ -99,14 +99,12 @@
   color: #333;
 }
 
-/* New Task */
-.section-title[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
+.task-row-wrapper {
+  margin: 20px 0 0;
 }
 
 .input#new-task {
-  width: 318px;
+  display: block;
 }
 
 /* Task list */
